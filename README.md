@@ -79,7 +79,6 @@ gradio
 You can use any LLM served via OpenAI-compatible API. Recommended:
 
 * 🔥 [LM Studio](https://lmstudio.ai/) – supports many Hugging Face models
-* 💡 [Ollama](https://ollama.com) – easy Mac/Windows CLI option
 
 > Example local endpoint: `http://localhost:1234/v1/chat/completions`
 
@@ -176,7 +175,7 @@ Got ideas? Want to adapt this for your industry? PRs are welcome!
 
 ## 🙋‍♂️ Author & License
 
-Built by [Your Name](https://www.linkedin.com/in/your-link/)
+Built by [Abhc7](https://www.linkedin.com/in/abichaudhuri/)
 MIT License © 2025
 
 ---
@@ -193,17 +192,12 @@ MIT License © 2025
 
 ## 🔗 Stay Connected
 
-💬 [LinkedIn](https://linkedin.com/in/your-link)
+💬 [LinkedIn](https://www.linkedin.com/in/abichaudhuri/)
 📩 Open to collaborations, demos, and talks!
 
 ---
 
 > 🧠 Sometimes, the best AI isn’t in the cloud — it’s sitting quietly on your machine, waiting to be asked the right question.
 
-```
-
----
-
-Let me know if you'd like the `README.md` file downloaded or a matching GitHub repo folder structure scaffolded for you.
 ```
 
