@@ -48,5 +48,162 @@ This project is a lightweight, offline-first **Retrieval-Augmented Generation (R
 ### 1. Clone this repo
 
 ```bash
-git clone https://github.com/Abic7/Victoria-Crime-chatbot.git
-cd Victoria-Crime-chatbot
+git clone https://github.com/yourusername/local-rag-assistant.git
+cd local-rag-assistant
+````
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+<details>
+<summary>Requirements</summary>
+
+```text
+pandas
+numpy
+faiss-cpu
+sentence-transformers
+requests
+gradio
+```
+
+</details>
+
+---
+
+### 3. Start your LLM locally
+
+You can use any LLM served via OpenAI-compatible API. Recommended:
+
+* 🔥 [LM Studio](https://lmstudio.ai/) – supports many Hugging Face models
+* 💡 [Ollama](https://ollama.com) – easy Mac/Windows CLI option
+
+> Example local endpoint: `http://localhost:1234/v1/chat/completions`
+
+---
+
+### 4. Launch the Gradio app
+
+```bash
+python gradio_rag_app.py
+```
+
+Then open your browser to `http://localhost:7860`
+
+---
+
+## 🧪 Example Questions (Crime Dataset)
+
+```text
+"What is the most stolen item in Abbotsford in 2025?"
+
+"How many food-related items were stolen in postcode 3067?"
+
+"List total value of items stolen in commercial zones in Q1 2025."
+```
+
+---
+
+## 🧠 Prompt Engineering (Under the Hood)
+
+Every user question generates a rich, structured prompt like:
+
+```text
+You are a data analysis assistant. The following is a list of rows from a crime dataset...
+
+ONLY use the data provided. Do NOT make up any data.
+
+### Question:
+What is the most stolen item in Abbotsford in 2025?
+
+### Data:
+<Row 1>
+<Row 2>
+...
+
+### Instructions:
+- Use rows that match the filters in the question.
+- If nothing matches, say "No data found."
+```
+
+This ensures **grounded, explainable outputs** — ideal for high-trust domains like auditing, law enforcement, or finance.
+
+---
+
+## 📌 Use Cases
+
+* 🕵️ Crime and safety data analysis
+* 📈 Financial transaction review
+* 🧾 Policy compliance checks
+* 🧠 No-code internal BI assistants
+* 📁 Log + report analysis (GDPR, HIPAA, ISO, etc.)
+
+---
+
+## 🔐 Why Offline?
+
+* ✅ Privacy by default
+* 💸 Zero token/API costs
+* 🔄 Total control over data and model
+* 🔍 Fully explainable outputs with traceable context
+
+---
+
+## 🌍 Future Improvements
+
+* [ ] 🔍 Add support for PDFs, DOCX
+* [ ] 📊 Integrate interactive charts with Plotly
+* [ ] 🧠 Enable memory-aware follow-up Q\&A
+* [ ] 💾 Export answers to PDF/CSV
+* [ ] 🔄 Replace Gradio with Streamlit option
+
+---
+
+## 🤝 Contributing
+
+Got ideas? Want to adapt this for your industry? PRs are welcome!
+
+```bash
+# Fork + star ⭐
+# Create a branch 🚀
+# Submit a PR with improvements 💡
+```
+
+---
+
+## 🙋‍♂️ Author & License
+
+Built by [Your Name](https://www.linkedin.com/in/your-link/)
+MIT License © 2025
+
+---
+
+## 🌟 Acknowledgments
+
+* HuggingFace Transformers + SentenceTransformers
+* Facebook FAISS
+* Gradio Team
+* LM Studio / Ollama contributors
+* All open-source AI pioneers 🙌
+
+---
+
+## 🔗 Stay Connected
+
+💬 [LinkedIn](https://linkedin.com/in/your-link)
+📩 Open to collaborations, demos, and talks!
+
+---
+
+> 🧠 Sometimes, the best AI isn’t in the cloud — it’s sitting quietly on your machine, waiting to be asked the right question.
+
+```
+
+---
+
+Let me know if you'd like the `README.md` file downloaded or a matching GitHub repo folder structure scaffolded for you.
+```
+
