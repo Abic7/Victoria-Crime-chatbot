@@ -175,7 +175,7 @@ Got ideas? Want to adapt this for your industry? PRs are welcome!
 
 ## 🙋‍♂️ Author & License
 
-Built by [Abhc7](https://www.linkedin.com/in/abichaudhuri/)
+Built by [Abic7](https://www.linkedin.com/in/abichaudhuri/)
 MIT License © 2025
 
 ---
