@@ -2,7 +2,7 @@
 
 > Ask natural questions about your CSV data using semantic search and a local large language model. 100% offline. No OpenAI keys. No cloud dependencies.
 
-![Gradio Screenshot](https://your-screenshot-url.com) <!-- Replace with actual screenshot if available -->
+![Gradio Screenshot](<img width="1088" height="981" alt="image" src="https://github.com/user-attachments/assets/25d7ab06-8905-492c-bd0e-46651141c46e" />) <!-- Replace with actual screenshot if available -->
 
 ---
 
