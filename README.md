@@ -2,7 +2,7 @@
 
 > Ask natural questions about your CSV data using semantic search and a local large language model. 100% offline. No OpenAI keys. No cloud dependencies.
 
-![Gradio Screenshot] <blockquote class="imgur-embed-pub" lang="en" data-id="a/qSjAnYq" data-context="false" ><a href="//imgur.com/a/qSjAnYq"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script> <!-- Replace with actual screenshot if available -->
+![Gradio Screenshot](https://imgur.com/a/qSjAnYq)
 
 ---
 
